@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barishal Courts Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--accent:#185FA5;--sb:192px;--bg:#f8f7f4;--surf:#fff;--bd:rgba(0,0,0,0.1);--tx:#1a1917;--tx2:#5a5856;--tx3:#8a8784;--r:8px;--rl:12px}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--tx);font-size:14px;-webkit-font-smoothing:antialiased}
+body.bn{font-family:'Hind Siliguri',sans-serif}
+.shell{display:flex;min-height:100vh}
+.sb{width:var(--sb);flex-shrink:0;background:var(--surf);border-right:0.5px solid var(--bd);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sb-hd{padding:1rem 1rem .75rem;border-bottom:0.5px solid var(--bd)}
+.sb-title{font-size:13px;font-weight:600;line-height:1.3}
+.sb-sub{font-size:11px;color:var(--tx3);margin-top:3px}
+.sb-nav{padding:.4rem 0;flex:1}
+.ng{font-size:10px;font-weight:600;color:var(--tx3);letter-spacing:.07em;text-transform:uppercase;padding:.6rem 1rem .2rem}
+.ni{display:flex;align-items:center;gap:7px;padding:6px 1rem;font-size:12.5px;color:var(--tx2);cursor:pointer;border:none;background:none;width:100%;text-align:left;border-left:2px solid transparent;font-family:inherit}
+.ni:hover{background:var(--bg)}
+.ni.on{background:var(--bg);color:var(--tx);border-left-color:var(--accent);font-weight:500}
+.ni.sub{padding-left:2.2rem;font-size:12px}
+.sb-ft{padding:.75rem 1rem;border-top:0.5px solid var(--bd)}
+.lb{width:100%;padding:6px 10px;font-size:12px;font-family:inherit;border:0.5px solid rgba(0,0,0,0.18);border-radius:var(--r);background:none;cursor:pointer;color:var(--tx2)}
+.lb:hover{background:var(--bg)}
+.main{flex:1;min-width:0;padding:1.75rem 2rem;max-width:960px}
+.pt{font-size:20px;font-weight:600;margin-bottom:.2rem}
+.ps{font-size:13px;color:var(--tx2);margin-bottom:1.5rem}
+.sl{font-size:11px;font-weight:600;color:var(--tx3);text-transform:uppercase;letter-spacing:.06em;margin:1.4rem 0 .6rem}
+.kg{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:9px;margin-bottom:1.2rem}
+.kc{background:var(--bg);border-radius:var(--r);padding:.8rem 1rem}
+.kl{font-size:11px;color:var(--tx2);margin-bottom:3px}
+.kv{font-size:21px;font-weight:600;line-height:1.1}
+.ks{font-size:11px;color:var(--tx3);margin-top:2px}
+.kc.red .kv{color:#A32D2D}.kc.amb .kv{color:#854F0B}.kc.grn .kv{color:#3B6D11}.kc.blu .kv{color:#185FA5}
+.card{background:var(--surf);border:0.5px solid var(--bd);border-radius:var(--rl);padding:1rem 1.25rem;margin-bottom:1rem}
+.cn{font-size:11px;color:var(--tx3);margin-top:.65rem;padding-top:.65rem;border-top:0.5px solid var(--bd)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;padding:5px 9px;font-size:11px;font-weight:600;color:var(--tx2);border-bottom:0.5px solid var(--bd);white-space:nowrap}
+td{padding:7px 9px;border-bottom:0.5px solid var(--bd)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--bg)}
+.n{text-align:right;font-variant-numeric:tabular-nums}
+.b{display:inline-block;padding:2px 7px;border-radius:var(--r);font-size:11px;font-weight:500}
+.br{background:#FCEBEB;color:#A32D2D}.ba{background:#FAEEDA;color:#854F0B}
+.bg{background:#EAF3DE;color:#3B6D11}.bb{background:#E6F1FB;color:#185FA5}
+.ab{border-left:3px solid #E24B4A;padding:.6rem .9rem;background:#FCEBEB;border-radius:0 var(--r) var(--r) 0;margin-bottom:.6rem}
+.ab .ah{font-size:12px;font-weight:600;color:#A32D2D;margin-bottom:2px}.ab .at{font-size:12px;color:#A32D2D}
+.wb{border-left:3px solid #EF9F27;padding:.6rem .9rem;background:#FAEEDA;border-radius:0 var(--r) var(--r) 0;margin-bottom:.6rem}
+.wb .ah{font-size:12px;font-weight:600;color:#854F0B;margin-bottom:2px}.wb .at{font-size:12px;color:#854F0B}
+.pb{border-left:3px solid #1D9E75;padding:.6rem .9rem;background:#E1F5EE;border-radius:0 var(--r) var(--r) 0;margin-bottom:.6rem}
+.pb .ah{font-size:12px;font-weight:600;color:#0F6E56;margin-bottom:2px}.pb .at{font-size:12px;color:#0F6E56}
+.ib{border-left:3px solid #185FA5;padding:.6rem .9rem;background:#E6F1FB;border-radius:0 var(--r) var(--r) 0;margin-bottom:.6rem}
+.ib .ah{font-size:12px;font-weight:600;color:#185FA5;margin-bottom:2px}.ib .at{font-size:12px;color:#185FA5}
+.pr{display:flex;align-items:center;padding:6px 0;border-bottom:0.5px solid var(--bd)}
+.pr:last-child{border-bottom:none}
+.pl{flex:1;font-size:12.5px}
+.pbw{width:90px;height:6px;background:var(--bg);border-radius:3px;margin:0 9px;flex-shrink:0}
+.pf{height:100%;border-radius:3px}
+.pv{font-size:12px;font-weight:500;min-width:44px;text-align:right;flex-shrink:0}
+.lg{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:9px;font-size:12px;color:var(--tx2)}
+.li{display:flex;align-items:center;gap:4px}
+.ld{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+.cw{position:relative;width:100%}
+.tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:1.2rem}
+.tb{padding:4px 11px;font-size:12px;font-family:inherit;border:0.5px solid rgba(0,0,0,0.18);border-radius:var(--r);background:none;cursor:pointer;color:var(--tx2)}
+.tb:hover{background:var(--bg)}
+.tb.on{background:var(--surf);border-color:var(--accent);color:var(--accent);font-weight:500}
+@media(max-width:720px){.sb{display:none}.main{padding:1rem}.two{grid-template-columns:1fr}.kg{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="shell">
+<nav class="sb">
+  <div class="sb-hd">
+    <div class="sb-title">Barishal Courts Dashboard</div>
+    <div class="sb-sub">Barishal District</div>
+  </div>
+  <div class="sb-nav">
+    <button class="ni on" onclick="show('overview',this)">&#128202; Overview</button>
+    <button class="ni" onclick="show('district',this)">&#127963; District view</button>
+    <button class="ni" onclick="show('court',this)">&#9878; Court-by-court</button>
+    <button class="ni" onclick="show('pending',this)">&#128336; Pending &amp; age</button>
+    <button class="ni" onclick="show('monthly',this)">&#128197; Monthly progress</button>
+    <button class="ni" onclick="show('casetypes',this)">&#127991; Case types</button>
+    <div class="ng">NOS</div>
+    <button class="ni" onclick="show('nos',this)">&#128203; NOS deep-dive</button>
+    <button class="ni sub" onclick="show('nos_off',this)">&#9878; Offence types</button>
+    <button class="ni sub" onclick="show('nos_bar',this)">&#128683; Barriers</button>
+    <button class="ni sub" onclick="show('nos_cas',this)">&#9888; Notable cases</button>
+    <button class="ni" onclick="show('method',this)">&#8505; Methodology</button>
+  </div>
+  <div class="sb-ft">
+    <div style="font-size:10px;color:var(--tx3);margin-bottom:6px">Last updated: 2026-06-06</div>
+    <button class="lb" onclick="toggleLang()">&#127760; <span id="langBtn">&#2476;&#2494;&#2434;&#2482;&#2494;</span></button>
+  </div>
+</nav>
+<main class="main" id="main"></main>
+</div>
+<script>
+
+var DCL = ["CJM (Total)", "Human Trafficking Tribunal", "Nari o Shishu Tribunal", "Cyber Tribunal", "Metropolitan Sessions Court (All)", "CMM (Total)", "District & Session Judge (All)", "Jana Nirapotta & Special Session Judge", "Divisional Special Judge"];
+var DCR = [0.7, 1.7, 2.2, 2.8, 3.2, 3.5, 4.0, 17.0, 48.8];
+var DCC = ["#639922", "#639922", "#639922", "#639922", "#185FA5", "#185FA5", "#185FA5", "#EF9F27", "#E24B4A"];
+var DBL = ["Human Trafficking Tribunal", "Jana Nirapotta & Special Session Judge", "Divisional Special Judge", "Cyber Tribunal", "District & Session Judge (All)", "Metropolitan Sessions Court (All)", "Nari o Shishu Tribunal", "CMM (Total)", "CJM (Total)"];
+var DBT = [58, 112, 172, 422, 1881, 2536, 3564, 10356, 11478];
+var DB5 = [1, 19, 84, 12, 75, 80, 77, 358, 79];
+var ACL = ["NOS", "CMM", "ACJM", "ACMM", "CJM", "DJ", "JM2"];
+var A5T = [31, 80, 6, 9, 6, 6, 2];
+var AOT = [3, 7, 1, 0, 1, 0, 0];
+var YRL = ["2000", "2007", "2008", "2010", "2011", "2014", "2015", "2016", "2017", "2018", "2019", "2025"];
+var YRV = [1, 1, 1, 1, 2, 2, 4, 5, 22, 37, 76, 1];
+var M5L = ["Nari", "Chief", "Additional", "Shishu"];
+var M5B = [10, 31, 5, 0];
+var M5D = [1, 9, 1, 2];
+var M5P = [10, 29, 5, 0];
+var TDS = [{"label": "Nari O Shishu Act", "data": [34, 0, 0, 0, 0, 0, 0], "backgroundColor": "#D4537E", "borderWidth": 0}, {"label": "Special Laws", "data": [0, 30, 0, 9, 0, 4, 0], "backgroundColor": "#EF9F27", "borderWidth": 0}, {"label": "Homicide / Attempt", "data": [0, 21, 6, 0, 3, 0, 2], "backgroundColor": "#E24B4A", "borderWidth": 0}, {"label": "Forgery / Fraud", "data": [0, 18, 0, 0, 4, 0, 0], "backgroundColor": "#D85A30", "borderWidth": 0}, {"label": "Theft / Robbery", "data": [0, 13, 0, 0, 0, 0, 0], "backgroundColor": "#1D9E75", "borderWidth": 0}, {"label": "Assault / Hurt", "data": [0, 2, 1, 0, 1, 0, 0], "backgroundColor": "#185FA5", "borderWidth": 0}, {"label": "Rioting / Unlawful Assembly", "data": [0, 1, 0, 0, 0, 0, 0], "backgroundColor": "#639922", "borderWidth": 0}, {"label": "Other / Unclassified", "data": [0, 2, 0, 0, 0, 2, 0], "backgroundColor": "#B4B2A9", "borderWidth": 0}, {"label": "Unclassified", "data": [0, 13, 93, 91, 92, 94, 98], "backgroundColor": "#D3D1C7", "borderWidth": 0}];
+var OFL = ["Section 9", "Section 7", "Section 11", "Section 10", "Section 17"];
+var OFV = [12, 9, 6, 2, 1];
+var OFC = ["#E24B4A", "#D4537E", "#EF9F27", "#185FA5", "#888780"];
+var NYR = [{"y": "2010", "n": 1}, {"y": "2014", "n": 1}, {"y": "2015", "n": 1}, {"y": "2016", "n": 1}, {"y": "2017", "n": 6}, {"y": "2018", "n": 13}, {"y": "2019", "n": 11}];
+
+var lang = 'en';
+function toggleLang() {
+  lang = lang === 'en' ? 'bn' : 'en';
+  document.body.className = lang === 'bn' ? 'bn' : '';
+  document.getElementById('langBtn').innerHTML = lang === 'bn' ? 'English' : '&#2476;&#2494;&#2434;&#2482;&#2494;';
+}
+var charts = {};
+function mkChart(id, cfg) {
+  if (charts[id]) { charts[id].destroy(); delete charts[id]; }
+  var el = document.getElementById(id);
+  if (!el) return;
+  charts[id] = new Chart(el, cfg);
+}
+function show(p, btn) {
+  document.querySelectorAll('.ni').forEach(function(n){ n.classList.remove('on'); });
+  if (btn) btn.classList.add('on');
+  render(p);
+}
+function render(p) {
+  var m = document.getElementById('main');
+  if (p==='overview') rOverview(m);
+  else if (p==='district') rDistrict(m);
+  else if (p==='pending') rPending(m);
+  else if (p==='monthly') rMonthly(m);
+  else if (p==='casetypes') rCaseTypes(m);
+  else if (p==='nos') rNOS(m);
+  else if (p==='nos_off') rNOSOff(m);
+  else if (p==='nos_bar') rNOSBar(m);
+  else if (p==='nos_cas') rNOSCas(m);
+  else if (p==='court') rCourt(m);
+  else if (p==='method') rMethod(m);
+}
+
+function rOverview(m) {
+  m.innerHTML = '<div class="pt">Overview</div>'
+    + '<div class="ps">Barishal District &mdash; criminal case backlog summary, September 2025</div>'
+    + '<div class="kg">'
+    + '<div class="kc red"><div class="kl">Total pending cases</div><div class="kv">30,579</div><div class="ks">District-wide, Sep 2025</div></div>'
+    + '<div class="kc amb"><div class="kl">Pending 5+ years</div><div class="kv">785</div><div class="ks">2.6% of total</div></div>'
+    + '<div class="kc"><div class="kl">Courts covered</div><div class="kv">10</div><div class="ks">All court types</div></div>'
+    + '<div class="kc red"><div class="kl">Highest 5+ yr rate</div><div class="kv">48.8%</div><div class="ks">Div. Special Judge</div></div>'
+    + '<div class="kc red"><div class="kl">Old case register</div><div class="kv">130</div><div class="ks">NOS &middot; 35 reviewed</div></div>'
+    + '<div class="kc grn"><div class="kl">Disposed Feb 2026</div><div class="kv">84</div><div class="ks">NOS + CMM + ACMM</div></div>'
+    + '</div>'
+    + '<div class="sl">5+ year backlog rate by court &mdash; Sep 2025</div>'
+    + '<div class="card"><div class="lg"><span class="li"><span class="ld" style="background:#639922"></span>&lt;3%</span><span class="li"><span class="ld" style="background:#185FA5"></span>3&ndash;10%</span><span class="li"><span class="ld" style="background:#EF9F27"></span>10&ndash;20%</span><span class="li"><span class="ld" style="background:#E24B4A"></span>20%+</span></div>'
+    + '<div class="cw" style="height:250px"><canvas id="ovC"></canvas></div>'
+    + '<div class="cn">Source: Sep 2025 Pending Cases Report</div></div>'
+    + '<div class="sl">Key findings</div>'
+    + '<div class="card"><div class="pr"><span class="pl">Divisional Special Judge</span><div class="pbw"><div class="pf" style="width:97.6%;background:#E24B4A"></div></div><span class="pv"><span class="b br">48.8%</span></span></div><div class="pr"><span class="pl">Jana Nirapotta & Special Session Judge</span><div class="pbw"><div class="pf" style="width:34.0%;background:#EF9F27"></div></div><span class="pv"><span class="b ba">17.0%</span></span></div><div class="pr"><span class="pl">District & Session Judge (All)</span><div class="pbw"><div class="pf" style="width:8.0%;background:#185FA5"></div></div><span class="pv"><span class="b bb">4.0%</span></span></div><div class="pr"><span class="pl">CMM (Total)</span><div class="pbw"><div class="pf" style="width:7.0%;background:#185FA5"></div></div><span class="pv"><span class="b bb">3.5%</span></span></div><div class="pr"><span class="pl">Metropolitan Sessions Court (All)</span><div class="pbw"><div class="pf" style="width:6.4%;background:#185FA5"></div></div><span class="pv"><span class="b bb">3.2%</span></span></div><div class="pr"><span class="pl">Cyber Tribunal</span><div class="pbw"><div class="pf" style="width:5.6%;background:#639922"></div></div><span class="pv"><span class="b bg">2.8%</span></span></div><div class="pr"><span class="pl">Nari o Shishu Tribunal</span><div class="pbw"><div class="pf" style="width:4.4%;background:#639922"></div></div><span class="pv"><span class="b bg">2.2%</span></span></div><div class="pr"><span class="pl">Human Trafficking Tribunal</span><div class="pbw"><div class="pf" style="width:3.4%;background:#639922"></div></div><span class="pv"><span class="b bg">1.7%</span></span></div><div class="pr"><span class="pl">CJM (Total)</span><div class="pbw"><div class="pf" style="width:1.4%;background:#639922"></div></div><span class="pv"><span class="b bg">0.7%</span></span></div><div class="pr"><span class="pl">Anti-Terrorism</span><div class="pbw"><div class="pf" style="width:0.0%;background:#639922"></div></div><span class="pv"><span class="b bg">0.0%</span></span></div></div>';
+  setTimeout(function() {
+    mkChart('ovC',{type:'bar',data:{labels:DCL,datasets:[{label:'5+ yr %',data:DCR,backgroundColor:DCC,borderWidth:0,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.raw+'%';}}}},scales:{y:{ticks:{callback:function(v){return v+'%';}},grid:{color:'rgba(0,0,0,.05)'},beginAtZero:true},x:{ticks:{maxRotation:35,font:{size:10}},grid:{display:false}}}}});
+  }, 50);
+}
+
+function rDistrict(m) {
+  m.innerHTML = '<div class="pt">District view</div>'
+    + '<div class="ps">All courts &mdash; total pending and 5+ year cases, September 2025</div>'
+    + '<div class="card"><table><thead><tr><th>#</th><th>Court</th><th class="n">Total pending</th><th class="n">5+ years</th><th class="n">Rate</th></tr></thead><tbody><tr><td>1</td><td>District & Session Judge (All)</td><td class="n">1,881</td><td class="n">75</td><td class="n"><span class="b bb">4.0%</span></td></tr><tr><td>2</td><td>CJM (Total)</td><td class="n">11,478</td><td class="n">79</td><td class="n"><span class="b bg">0.7%</span></td></tr><tr><td>3</td><td>CMM (Total)</td><td class="n">10,356</td><td class="n">358</td><td class="n"><span class="b bb">3.5%</span></td></tr><tr><td>4</td><td>Nari o Shishu Tribunal</td><td class="n">3,564</td><td class="n">77</td><td class="n"><span class="b bg">2.2%</span></td></tr><tr><td>5</td><td>Human Trafficking Tribunal</td><td class="n">58</td><td class="n">1</td><td class="n"><span class="b bg">1.7%</span></td></tr><tr><td>6</td><td>Jana Nirapotta & Special Session Judge</td><td class="n">112</td><td class="n">19</td><td class="n"><span class="b ba">17.0%</span></td></tr><tr><td>7</td><td>Metropolitan Sessions Court (All)</td><td class="n">2,536</td><td class="n">80</td><td class="n"><span class="b bb">3.2%</span></td></tr><tr><td>8</td><td>Cyber Tribunal</td><td class="n">422</td><td class="n">12</td><td class="n"><span class="b bg">2.8%</span></td></tr><tr><td>9</td><td>Anti-Terrorism</td><td class="n">0</td><td class="n">0</td><td class="n"><span class="b bg">0.0%</span></td></tr><tr><td>10</td><td>Divisional Special Judge</td><td class="n">172</td><td class="n">84</td><td class="n"><span class="b br">48.8%</span></td></tr><tr style="font-weight:600"><td></td><td>Total</td><td class="n">30,579</td><td class="n">785</td><td class="n"><span class="b ba">2.6%</span></td></tr></tbody></table><div class="cn">Source: Sep 2025 Pending Cases Report</div></div>'
+    + '<div class="sl">Total pending by court</div>'
+    + '<div class="card"><div class="lg"><span class="li"><span class="ld" style="background:#185FA5"></span>Total</span><span class="li"><span class="ld" style="background:#E24B4A"></span>5+ yrs</span></div><div class="cw" style="height:320px"><canvas id="distC"></canvas></div></div>';
+  setTimeout(function() {
+    mkChart('distC',{type:'bar',data:{labels:DBL,datasets:[{label:'Total',data:DBT,backgroundColor:'#185FA5',borderWidth:0,borderRadius:2},{label:'5+ yrs',data:DB5,backgroundColor:'#E24B4A',borderWidth:0,borderRadius:2}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{font:{size:11}}}},scales:{x:{grid:{color:'rgba(0,0,0,.05)'}},y:{ticks:{font:{size:11}},grid:{display:false}}}}});
+  }, 50);
+}
+
+function rPending(m) {
+  m.innerHTML = '<div class="pt">Pending cases &amp; age analysis</div>'
+    + '<div class="ps">Old case register &mdash; 634 cases filed 2019 or earlier, all pending as at Jan 2026</div>'
+    + '<div class="kg"><div class="kc red"><div class="kl">Total old cases</div><div class="kv">634</div><div class="ks">7 courts</div></div><div class="kc amb"><div class="kl">Avg age</div><div class="kv">7.5 yrs</div><div class="ks">As at Jan 2026</div></div><div class="kc red"><div class="kl">100% over 5 yrs</div><div class="kv">634</div><div class="ks">Every case</div></div><div class="kc red"><div class="kl">Oldest case</div><div class="kv">25.5 yrs</div><div class="ks">CMM court</div></div></div>'
+    + '<div class="two"><div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">Age bands by court</div><div class="lg"><span class="li"><span class="ld" style="background:#185FA5"></span>5&ndash;10 yrs</span><span class="li"><span class="ld" style="background:#E24B4A"></span>Over 10</span></div><div class="cw" style="height:210px"><canvas id="ageC"></canvas></div></div>'
+    + '<div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">Filing year distribution</div><div class="cw" style="height:230px"><canvas id="yearC"></canvas></div></div></div>'
+    + '<div class="sl">Average case age by court</div>'
+    + '<div class="card"><table><thead><tr><th>Court</th><th class="n">Cases</th><th class="n">Avg (yrs)</th><th class="n">Median</th><th class="n">Oldest</th><th class="n">% over 10</th></tr></thead><tbody><tr><td>NOS</td><td class="n">34</td><td class="n">7.9</td><td class="n">7.3</td><td class="n">15.1</td><td class="n">8.8%</td></tr><tr><td>CMM</td><td class="n">100</td><td class="n">7.8</td><td class="n">7.0</td><td class="n">25.5</td><td class="n">8.0%</td></tr><tr><td>ACJM</td><td class="n">100</td><td class="n">8.3</td><td class="n">6.5</td><td class="n">18.3</td><td class="n">14.3%</td></tr><tr><td>ACMM</td><td class="n">100</td><td class="n">6.5</td><td class="n">6.3</td><td class="n">7.2</td><td class="n">0%</td></tr><tr><td>CJM</td><td class="n">100</td><td class="n">6.9</td><td class="n">6.9</td><td class="n">8.0</td><td class="n">0%</td></tr><tr><td>DJ</td><td class="n">100</td><td class="n">7.5</td><td class="n">7.5</td><td class="n">8.0</td><td class="n">0%</td></tr><tr><td>JM2</td><td class="n">100</td><td class="n">6.5</td><td class="n">6.5</td><td class="n">6.5</td><td class="n">0%</td></tr></tbody></table></div>';
+  setTimeout(function() {
+    mkChart('ageC',{type:'bar',data:{labels:ACL,datasets:[{label:'5-10 yrs',data:A5T,backgroundColor:'#185FA5',borderWidth:0,borderRadius:2},{label:'Over 10',data:AOT,backgroundColor:'#E24B4A',borderWidth:0,borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,grid:{color:'rgba(0,0,0,.05)'}}}}});
+    mkChart('yearC',{type:'bar',data:{labels:YRL,datasets:[{label:'Cases',data:YRV,backgroundColor:'#1D9E75',borderWidth:0,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{autoSkip:false,maxRotation:45,font:{size:10}},grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.05)'}}}}});
+  }, 50);
+}
+
+function rMonthly(m) {
+  m.innerHTML = '<div class="pt">Monthly progress</div>'
+    + '<div class="ps">February 2026 &mdash; inflow/outflow and 5+ year clearance vs Sep 2025 baseline</div>'
+    + '<div class="sl">Case inflow and outflow &mdash; February 2026</div>'
+    + '<div class="card"><table><thead><tr><th>Court</th><th class="n">Start</th><th class="n">Filed</th><th class="n">Resolved</th><th class="n">End</th><th class="n">Net</th></tr></thead><tbody><tr><td>Nari O Shishu</td><td class="n">706</td><td class="n">0</td><td class="n">27</td><td class="n">679</td><td class="n"><span class="b bg">-27</span></td></tr><tr><td>Chief Metropolitan Magistrate</td><td class="n">362</td><td class="n">0</td><td class="n">22</td><td class="n">340</td><td class="n"><span class="b bg">-22</span></td></tr><tr><td>Additional Chief Metropolitan</td><td class="n">376</td><td class="n">40</td><td class="n">35</td><td class="n">381</td><td class="n"><span class="b ba">+5</span></td></tr></tbody></table><div class="cn">Source: Monthly Report Feb 2026</div></div>'
+    + '<div class="sl">5+ year clearance from Sep 2025 baseline</div>'
+    + '<div class="card"><div class="cw" style="height:210px"><canvas id="monC"></canvas></div></div>'
+    + '<div class="card"><table><thead><tr><th>Court</th><th class="n">Baseline</th><th class="n">This month</th><th class="n">Total disposed</th><th class="n">Still pending</th><th class="n">% cleared</th></tr></thead><tbody><tr><td>Nari O</td><td class="n">10</td><td class="n">0</td><td class="n">1</td><td class="n">10</td><td class="n"><span class="b ba">10%</span></td></tr><tr><td>Chief Metropolitan</td><td class="n">31</td><td class="n">2</td><td class="n">9</td><td class="n">29</td><td class="n"><span class="b bb">29%</span></td></tr><tr><td>Additional Chief</td><td class="n">5</td><td class="n">1</td><td class="n">1</td><td class="n">5</td><td class="n"><span class="b bb">20%</span></td></tr><tr><td>Shishu Court</td><td class="n">0</td><td class="n">0</td><td class="n">2</td><td class="n">0</td><td class="n"><span class="b bg">100%</span></td></tr></tbody></table></div>'
+    + '<div class="sl">Individual case disposals &mdash; 5+ year cases</div>'
+    + '<div class="card"><table><thead><tr><th>#</th><th>Case no.</th><th>Court</th><th>Sections</th><th>Date</th><th>Paralegal</th></tr></thead><tbody><tr><td>1</td><td>Gr-771/2017 Sador</td><td>CMM</td><td title="19(1) of 7(a)" style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">19(1) of 7(a)</td><td>2026-02-09</td><td><span class="b bb">Yes</span></td></tr><tr><td>2</td><td>Gr 307/18 Sador</td><td>CMM</td><td title="379 PC" style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">379 PC</td><td>2026-01-02</td><td>&mdash;</td></tr><tr><td>3</td><td>Gr-105/19 Babuganj</td><td>ACJM</td><td title="143/448/307/323/325/354/379/427/506" style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">143/448/307/323/325/354/379/427/506</td><td>2026-02-09</td><td>&mdash;</td></tr></tbody></table><div class="cn">Source: Monthly Detail Report Feb 2026</div></div>';
+  setTimeout(function() {
+    mkChart('monC',{type:'bar',data:{labels:M5L,datasets:[{label:'Baseline',data:M5B,backgroundColor:'#888780',borderWidth:0,borderRadius:2},{label:'Disposed',data:M5D,backgroundColor:'#639922',borderWidth:0,borderRadius:2},{label:'Still pending',data:M5P,backgroundColor:'#E24B4A',borderWidth:0,borderRadius:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{font:{size:11}}}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.05)'}}}}});
+  }, 50);
+}
+
+function rCaseTypes(m) {
+  m.innerHTML = '<div class="pt">Case types</div>'
+    + '<div class="ps">Old case register &mdash; case category breakdown across all courts</div>'
+    + '<div class="card"><div class="lg"><span class="li"><span class="ld" style="background:#D4537E"></span>NOS Act</span><span class="li"><span class="ld" style="background:#EF9F27"></span>Special Laws</span><span class="li"><span class="ld" style="background:#E24B4A"></span>Homicide</span><span class="li"><span class="ld" style="background:#D85A30"></span>Forgery</span><span class="li"><span class="ld" style="background:#1D9E75"></span>Theft</span><span class="li"><span class="ld" style="background:#185FA5"></span>Assault</span></div><div class="cw" style="height:260px"><canvas id="typeC"></canvas></div><div class="cn">Source: Old case registers (7 courts)</div></div>'
+    + '<div class="two"><div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">CMM &mdash; case types</div><div class="cw" style="height:200px"><canvas id="cmmC"></canvas></div></div>'
+    + '<div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">NOS &mdash; offence sections</div><div class="cw" style="height:200px"><canvas id="nosSmC"></canvas></div></div></div>';
+  setTimeout(function() {
+    mkChart('typeC',{type:'bar',data:{labels:ACL,datasets:TDS},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,grid:{color:'rgba(0,0,0,.05)'}}}}});
+    mkChart('cmmC',{type:'doughnut',data:{labels:['Special Laws','Homicide','Forgery','Theft','Assault','Rioting','Unclassified'],datasets:[{data:[30,21,18,13,2,1,15],backgroundColor:['#EF9F27','#E24B4A','#D85A30','#1D9E75','#185FA5','#639922','#888780'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:10},boxWidth:9}}}}});
+    mkChart('nosSmC',{type:'doughnut',data:{labels:['S.9 Dowry','S.7 Rape','S.11 Other','S.10 Harassment','S.17 Other'],datasets:[{data:[12,9,6,2,1],backgroundColor:['#E24B4A','#D4537E','#EF9F27','#185FA5','#888780'],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:10},boxWidth:9}}}}});
+  }, 50);
+}
+
+function rNOS(m) {
+  m.innerHTML = '<div class="pt">NOS Court &mdash; deep-dive</div>'
+    + '<div class="ps">Nari O Shishu Nirjatan Daman Tribunal, Barishal &middot; Old Case Register Analysis &middot; April 2026</div>'
+    + '<div class="kg"><div class="kc amb"><div class="kl">Cases in register</div><div class="kv">130</div><div class="ks">35 reviewed</div></div><div class="kc red"><div class="kl">Case age range</div><div class="kv">7&ndash;16 yrs</div><div class="ks">Oldest: Nari-50/19</div></div><div class="kc red"><div class="kl">Max NBWW cycles</div><div class="kv">11&times;</div><div class="ks">Nari-403/19</div></div><div class="kc grn"><div class="kl">Disposals</div><div class="kv">1</div><div class="ks">Nari-363/19, Jan 2026</div></div><div class="kc blu"><div class="kl">Complainant reachable</div><div class="kv">~35%</div><div class="ks">Phone numbers on file</div></div><div class="kc amb"><div class="kl">Mediation potential</div><div class="kv">3+</div><div class="ks">Cases with notation</div></div></div>'
+    + '<div class="sl">Critical trajectory warning</div>'
+    + '<div class="ab"><div class="ah">Rangpur trajectory &mdash; 10&ndash;12 year lag</div><div class="at">Without structural intervention, the 2019 cohort will reach Rangpur-level entrenchment by 2030.</div></div>'
+    + '<div class="sl">Rangpur vs Barishal comparison</div>'
+    + '<div class="card"><table><thead><tr><th>Indicator</th><th style="color:#A32D2D">Rangpur</th><th style="color:#185FA5">Barishal</th></tr></thead><tbody>'
+    + '<tr><td><strong>Case age</strong></td><td style="color:#A32D2D">12&ndash;23 yrs &mdash; past recovery</td><td style="color:#185FA5">6&ndash;11 yrs &mdash; still recoverable</td></tr>'
+    + '<tr><td><strong>NBWW cycles</strong></td><td style="color:#A32D2D">Up to 23 &mdash; collapsed</td><td style="color:#185FA5">Up to 11 &mdash; escalating</td></tr>'
+    + '<tr><td><strong>Complainant contactability</strong></td><td style="color:#A32D2D">~10% reachable</td><td style="color:#185FA5">~35% reachable</td></tr>'
+    + '<tr><td><strong>Mediation awareness</strong></td><td style="color:#A32D2D">None observed</td><td style="color:#185FA5">3+ cases noted</td></tr>'
+    + '<tr><td><strong>Cases disposed</strong></td><td style="color:#A32D2D">Zero</td><td style="color:#185FA5">One (Jan 2026)</td></tr>'
+    + '<tr><td><strong>Time to Rangpur-level</strong></td><td style="color:#A32D2D">Already there</td><td style="color:#185FA5">5&ndash;8 years without action</td></tr>'
+    + '</tbody></table></div>'
+    + '<div class="sl">Filing year distribution (reviewed cases)</div>'
+    + '<div class="card"><div class="cw" style="height:190px"><canvas id="nosYrC"></canvas></div></div>'
+    + '<div class="sl">Recommendations</div>'
+    + '<div class="ab"><div class="ah">R1 &mdash; Immediate: Fix Nari-409/19 charge-formation failure</div><div class="at">46 hearings without charge framed. Must be sole agenda at next hearing.</div></div>'
+    + '<div class="ab"><div class="ah">R2 &mdash; Immediate: Resolve Nari-415/19 HC order blockage</div><div class="at">6 adjournments for HC order not produced. Verify if order still in force.</div></div>'
+    + '<div class="wb"><div class="ah">R3 &mdash; Short-term: Batch resolution drive for 2019 cohort</div><div class="at">Dedicated monthly hearing day with advance police and medical witness notification.</div></div>'
+    + '<div class="wb"><div class="ah">R4 &mdash; Short-term: Study and replicate Nari-363/19 disposal</div><div class="at">Only disposal in three-district sample. Document enabling conditions.</div></div>'
+    + '<div class="wb"><div class="ah">R5 &mdash; Short-term: Escalating NBWW enforcement</div><div class="at">Written report to SP for Nari-301/19 and Nari-403/19.</div></div>'
+    + '<div class="pb"><div class="ah">R6&ndash;R8 &mdash; Medium-term</div><div class="at">Activate mediation screening &middot; Complete classification columns &middot; Full register audit of 95 unreviewed cases</div></div>';
+  setTimeout(function() {
+    mkChart('nosYrC',{type:'bar',data:{labels:NYR.map(function(d){return d.y;}),datasets:[{label:'Cases',data:NYR.map(function(d){return d.n;}),backgroundColor:'#D4537E',borderWidth:0,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.05)'}}}}});
+  }, 50);
+}
+
+function rNOSOff(m) {
+  m.innerHTML = '<div class="pt">NOS &mdash; offence type analysis</div>'
+    + '<div class="ps">Women &amp; Children Repression Prevention Act 2000 &mdash; section breakdown, 35 reviewed cases</div>'
+    + '<div class="two"><div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">Distribution by section</div><div class="cw" style="height:220px"><canvas id="offC"></canvas></div></div>'
+    + '<div class="card"><div style="font-size:13px;font-weight:500;margin-bottom:.5rem">Section severity</div>'
+    + '<div class="pr"><span class="pl">S.9 Dowry violence</span><div class="pbw"><div class="pf" style="width:40%;background:#E24B4A"></div></div><span class="pv">40%</span></div>'
+    + '<div class="pr"><span class="pl">S.7 Rape</span><div class="pbw"><div class="pf" style="width:30%;background:#E24B4A"></div></div><span class="pv">30%</span></div>'
+    + '<div class="pr"><span class="pl">S.11 Trafficking/other</span><div class="pbw"><div class="pf" style="width:20%;background:#EF9F27"></div></div><span class="pv">20%</span></div>'
+    + '<div class="pr"><span class="pl">S.10 Harassment</span><div class="pbw"><div class="pf" style="width:6.7%;background:#185FA5"></div></div><span class="pv">6.7%</span></div>'
+    + '<div class="pr"><span class="pl">S.17 Other</span><div class="pbw"><div class="pf" style="width:3.3%;background:#888780"></div></div><span class="pv">3.3%</span></div>'
+    + '</div></div>'
+    + '<div class="card"><table><thead><tr><th>Section</th><th>Description</th><th class="n">Cases</th><th class="n">%</th><th>Severity</th></tr></thead><tbody><tr><td>Section 9</td><td>Dowry-related violence/death</td><td class="n">12</td><td class="n">40.0%</td><td><span class="b ba">HIGH</span></td></tr><tr><td>Section 7</td><td>Rape</td><td class="n">9</td><td class="n">30.0%</td><td><span class="b br">CRITICAL</span></td></tr><tr><td>Section 11</td><td>Various offences incl. trafficking</td><td class="n">6</td><td class="n">20.0%</td><td><span class="b ba">HIGH</span></td></tr><tr><td>Section 10</td><td>Sexual harassment</td><td class="n">2</td><td class="n">6.7%</td><td><span class="b bb">MODERATE</span></td></tr><tr><td>Section 17</td><td>Other offences</td><td class="n">1</td><td class="n">3.3%</td><td><span class="b bb">MODERATE</span></td></tr></tbody></table>'
+    + '<div class="cn">70% of cases involve the most serious offences (sections 7 and 9). Source: NOS Analysis April 2026</div></div>';
+  setTimeout(function() {
+    mkChart('offC',{type:'doughnut',data:{labels:OFL,datasets:[{data:OFV,backgroundColor:OFC,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:11},boxWidth:10}}}}});
+  }, 50);
+}
+
+function rNOSBar(m) {
+  m.innerHTML = '<div class="pt">NOS &mdash; barrier analysis</div>'
+    + '<div class="ps">Structural barriers identified across the Barishal NOS case sample</div>'
+    + '<div class="sl">Universal barriers (100% of cases)</div>'
+    + '<div class="ab"><div class="ah">Witness non-appearance &mdash; CRITICAL</div><div class="at">Universal across all cases; sole stated barrier in the register.</div></div>'
+    + '<div class="ab"><div class="ah">NBWW failure &mdash; CRITICAL</div><div class="at">Up to 11 cycles per case. Mechanism is failing to produce witnesses.</div></div>'
+    + '<div class="ab"><div class="ah">Sections 6 and 8 blank &mdash; HIGH</div><div class="at">No comments or progress log in any case. Makes case-level monitoring impossible.</div></div>'
+    + '<div class="sl">All barriers identified</div>'
+    + '<div class="card"><table><thead><tr><th>Barrier</th><th>Prevalence</th><th>Severity</th><th>Notes</th></tr></thead><tbody><tr><td>Witness non-appearance</td><td>100% of cases</td><td><span class="b br">CRITICAL</span></td><td style="color:var(--tx2);font-size:11px">Universal; sole stated barrier in all cases</td></tr><tr><td>NBWW failure</td><td>100% of cases</td><td><span class="b br">CRITICAL</span></td><td style="color:var(--tx2);font-size:11px">Up to 11 cycles; trajectory climbing</td></tr><tr><td>Doctor and I/O witness absent</td><td>Majority</td><td><span class="b ba">HIGH</span></td><td style="color:var(--tx2);font-size:11px">Same pattern as Rangpur; earlier stage</td></tr><tr><td>Long adjournment gaps (3–5 months)</td><td>All cases</td><td><span class="b ba">HIGH</span></td><td style="color:var(--tx2);font-size:11px">Standard pattern; guarantees year-on-year accumulation</td></tr><tr><td>Sections 6 and 8 blank</td><td>100% of cases</td><td><span class="b ba">HIGH</span></td><td style="color:var(--tx2);font-size:11px">No comments or progress log in any case</td></tr><tr><td>Charge not framed (Nari-409/19)</td><td>Single case</td><td><span class="b br">CRITICAL</span></td><td style="color:var(--tx2);font-size:11px">46 hearings; 7+ years; charge still pending</td></tr><tr><td>Absconding accused (Nari-411/19)</td><td>Single case</td><td><span class="b ba">HIGH</span></td><td style="color:var(--tx2);font-size:11px">Paper notice issued; case cannot proceed</td></tr><tr><td>HC order pending (Nari-415/19)</td><td>Single case</td><td><span class="b ba">HIGH</span></td><td style="color:var(--tx2);font-size:11px">6 adjournments; trial frozen</td></tr><tr><td>Section 5 formulaic</td><td>100% of cases</td><td><span class="b bb">MEDIUM</span></td><td style="color:var(--tx2);font-size:11px">Only default &apos;Other&apos; option ticked</td></tr></tbody></table>'
+    + '<div class="cn">Source: NOS Old Case Register Analysis, April 2026</div></div>';
+}
+
+function rNOSCas(m) {
+  m.innerHTML = '<div class="pt">NOS &mdash; notable cases</div>'
+    + '<div class="ps">Cases requiring specific attention outside the standard NBWW non-appearance pattern</div>'
+    + notable_html
+    + '<div class="sl">Vulnerability profile</div>'
+    + '<div class="card" style="font-size:13px;color:var(--tx2);line-height:1.7;display:flex;flex-direction:column;gap:.5rem">'
+    + '<p>All 130 cases identify the primary vulnerability as <strong style="color:var(--tx)">female under WCRA 2000</strong> &mdash; 100% of the register.</p>'
+    + '<p>Approximately <strong style="color:var(--tx)">35% of complainants</strong> have phone numbers recorded. This window narrows with each year of further delay.</p>'
+    + '<p>The 2019 cohort represents a <strong style="color:var(--tx)">targeted intervention opportunity</strong>. Batch scheduling could produce measurable results within 6&ndash;12 months.</p>'
+    + '<div class="cn">Source: NOS Old Case Register Analysis, April 2026</div></div>';
+}
+
+function rCourt(m) {
+  var courts = [
+    {code:'NOS',name:'Nari O Shishu Tribunal',law:'WCRA 2000',total:'3,564',f5:'77',rate:'2.2',note:''},
+    {code:'CMM',name:'Chief Metropolitan Magistrate',law:'Penal Code',total:'10,356',f5:'358',rate:'3.5',note:''},
+    {code:'ACJM',name:'Add. Chief Judicial Magistrate',law:'Penal Code',total:'&mdash;',f5:'&mdash;',rate:'&mdash;',note:'Not in Sep 2025 district report. Data from old case register only.'},
+    {code:'ACMM',name:'Add. Chief Metro Magistrate',law:'Penal Code',total:'376*',f5:'5',rate:'&mdash;',note:''},
+    {code:'CJM',name:'Chief Judicial Magistrate',law:'Penal Code',total:'11,478',f5:'79',rate:'0.7',note:'Lowest rate despite largest caseload in district.'},
+    {code:'JM2',name:'Judicial Magistrate No. 2',law:'Penal Code',total:'&mdash;',f5:'&mdash;',rate:'&mdash;',note:'Not in Sep 2025 district report. Data from old case register only.'},
+    {code:'DSJ',name:'District & Session Judge',law:'Sessions',total:'1,881',f5:'75',rate:'4.0',note:''},
+    {code:'MSC',name:'Metropolitan Sessions Court',law:'Sessions',total:'2,536',f5:'80',rate:'3.2',note:'No old case register data.'},
+    {code:'JNSSJ',name:'Jana Nirapotta & Special Session',law:'Public safety',total:'112',f5:'19',rate:'17.0',note:'2nd highest rate &mdash; disproportionate given small caseload.'},
+    {code:'DSPecJ',name:'Divisional Special Judge',law:'Special',total:'172',f5:'84',rate:'48.8',note:'Highest rate in district &mdash; structural bottleneck. Priority for old register data collection.'},
+    {code:'CT',name:'Cyber Tribunal',law:'Digital Security Act',total:'422',f5:'12',rate:'2.8',note:'No old case register data.'},
+    {code:'HTT',name:'Human Trafficking Tribunal',law:'PSHT Act',total:'58',f5:'1',rate:'1.7',note:'Minimal backlog. Well-managed relative to peers.'},
+    {code:'AT',name:'Anti-Terrorism Court',law:'Anti-Terrorism Act',total:'0',f5:'0',rate:'0.0',note:'Zero pending cases reported.'},
+  ];
+  var active = 'NOS';
+  function rateClass(r) { var n=parseFloat(r); return isNaN(n)?'':n>=10?'red':n>=3?'amb':'grn'; }
+  function rateBadge(r) { var n=parseFloat(r); if(isNaN(n)) return ''; return '<span class="b '+(n>=20?'br':n>=10?'ba':n>=3?'bb':'bg')+'">'+r+'%</span>'; }
+  function panel(c) {
+    return '<div style="font-size:17px;font-weight:600;margin-bottom:.15rem">'+c.name+' <span style="font-size:13px;color:var(--tx2);font-weight:400">'+c.code+'</span></div>'
+      + '<div style="font-size:12px;color:var(--tx2);margin-bottom:.75rem">'+c.law+'</div>'
+      + (c.note ? '<div class="ib" style="margin-bottom:.75rem"><div class="at">'+c.note+'</div></div>' : '')
+      + '<div class="kg">'
+      + '<div class="kc '+rateClass(c.rate)+'"><div class="kl">Total pending</div><div class="kv">'+c.total+'</div><div class="ks">Sep 2025</div></div>'
+      + '<div class="kc '+rateClass(c.rate)+'"><div class="kl">Pending 5+ yrs</div><div class="kv">'+c.f5+'</div><div class="ks">'+(parseFloat(c.rate)?c.rate+'% of caseload':'No district data')+'</div></div>'
+      + '</div>';
+  }
+  m.innerHTML = '<div class="pt">Court-by-court view</div>'
+    + '<div class="ps">Select a court to see its profile and available metrics</div>'
+    + '<div class="tabs" id="cTabs">'+courts.map(function(c){return '<button class="tb'+(c.code===active?' on':'')+'" onclick="sC(''+c.code+'')">'+c.code+'</button>';}).join('')+'</div>'
+    + '<div id="cPanel">'+panel(courts.find(function(c){return c.code===active;}))+'</div>';
+  window.sC = function(code) {
+    active = code;
+    document.querySelectorAll('#cTabs .tb').forEach(function(b){b.classList.toggle('on',b.textContent.trim()===code);});
+    document.getElementById('cPanel').innerHTML = panel(courts.find(function(c){return c.code===code;}));
+  };
+}
+
+function rMethod(m) {
+  m.innerHTML = '<div class="pt">Methodology &amp; data sources</div>'
+    + '<div class="ps">Data provenance, reference dates, and limitations</div>'
+    + '<div class="card"><table><thead><tr><th>Source</th><th>Type</th><th>Reference date</th><th>Courts covered</th><th>Notes</th></tr></thead><tbody>'
+    + '<tr><td>Old case registers (7 files)</td><td>Excel</td><td>Jan 2026</td><td>NOS, CMM, ACJM, ACMM, CJM, DJ, JM-2</td><td>634 cases filed &le;2019</td></tr>'
+    + '<tr><td>NOS Register Analysis</td><td>Word doc</td><td>April 2026</td><td>NOS</td><td>130 cases; 35 reviewed by paralegals</td></tr>'
+    + '<tr><td>Pending Cases Report</td><td>Word doc</td><td>Sep 2025</td><td>All 10 courts</td><td>District-wide totals and 5+ yr rates</td></tr>'
+    + '<tr><td>Monthly Case Mgmt Report</td><td>Excel</td><td>Feb 2026</td><td>NOS, CMM, ACMM, Shishu</td><td>Inflow/outflow + 5+ yr tracker</td></tr>'
+    + '</tbody></table></div>'
+    + '<div class="sl">Key notes and limitations</div>'
+    + '<div class="card" style="font-size:13px;color:var(--tx2);line-height:1.8;display:flex;flex-direction:column;gap:.6rem">'
+    + '<p><strong style="color:var(--tx)">Reference dates differ.</strong> District totals (Sep 2025), old register ages (Jan 2026), NOS analysis (April 2026), monthly progress (Feb 2026).</p>'
+    + '<p><strong style="color:var(--tx)">NOS register: 130 cases, only 35 reviewed.</strong> Offence type and barrier data reflects the 35 paralegal-reviewed cases. Remaining 95 recommended for urgent review.</p>'
+    + '<p><strong style="color:var(--tx)">Case type classification partial.</strong> ACJM, ACMM, CJM, DJ, JM-2 largely unclassified due to inconsistent section number formats.</p>'
+    + '<p><strong style="color:var(--tx)">Project context.</strong> Data collected under Access to Justice for Women in Bangladesh (GIZ).</p>'
+    + '</div>';
+}
+
+render('overview');
+</script>
+</body>
+</html>
