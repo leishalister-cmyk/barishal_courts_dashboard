@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, copyFileSync, existsSync } from 'fs'
+import { writeFileSync, copyFileSync, existsSync, mkdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -6,6 +6,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 const DATA_SRC = join(ROOT, 'data')
 const DATA_OUT = join(ROOT, 'public', 'data')
+
+mkdirSync(DATA_OUT, { recursive: true })
 
 const REQUIRED_FILES = [
   'district_pending_overview.csv',
@@ -28,7 +30,7 @@ for (const file of REQUIRED_FILES) {
     copyFileSync(src, out)
     console.log(`✓ ${file}`)
   } else {
-    console.warn(`⚠ ${file} not found`)
+    console.warn(`⚠ ${file} not found — skipping`)
   }
 }
 
