@@ -1,0 +1,635 @@
+court_code,court_name,sl_no,case_no,title,date_filing,year_filing,last_hearing,next_date,case_type_raw,case_type_category,age_days,age_band,classification_frequent_adj,classification_adr,classification_ready,classification_doc_missing,classification_no_police_rpt,classification_disposal,classification_other
+NOS,Nari O Shishu Nirjatan Daman Tribunal,14,Nari-356/19,Md Mozibor Rahman,2018-02-27,2018,2025-09-14,2026-02-02,2025-07-30 00:00:00,Nari O Shishu Act,2865,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,20,Nari-379/19,Rabeya,2018-11-24,2018,2025-08-10,2026-02-14,11(C)/30,Nari O Shishu Act,2595,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,21,Nari-320/19,Nur hossain Babul,2018-09-14,2018,2025-07-08,2026-03-02,7,Nari O Shishu Act,2666,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,28,Nari-419/19,Mst.Mukta,2017-05-08,2017,2025-11-09,2026-01-02,9(4)(b)/30,Nari O Shishu Act,3160,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,30,Nari-429/19,Sanjida Akter,2015-06-08,2015,2025-09-30,2026-02-25,7,Nari O Shishu Act,3860,Over 10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,32,Nari-449/19,Md Helal Sarder,2018-08-10,2018,2025-09-10,2026-02-18,7,Nari O Shishu Act,2701,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,36,Nari-560/19,Mst Nazmunnahar,2019-02-04,2019,2025-08-10,2026-02-24,9(4)(b)/30,Nari O Shishu Act,2523,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,37,Nari-462/19,Mst Nasima Begum,2019-03-18,2019,2025-08-10,2026-02-24,9(4)(b),Nari O Shishu Act,2481,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,38,Nari-463/19,Mst Hasina Begum,2018-09-12,2018,2015-06-18,2026-02-25,9(4)(b),Nari O Shishu Act,2668,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,39,Nari-464/19,Md Golam Moula,2019-02-16,2019,2025-03-09,2026-02-15,7/9(1),Nari O Shishu Act,2511,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,41,Nari-467/19,Mst Nasima Begum,2018-12-13,2018,2025-08-10,2026-02-24,11(C),Nari O Shishu Act,2576,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,42,Nari-475/19,Md.Abdul Malek Sarder,2018-11-30,2018,2025-09-30,2026-02-18,9(1)7/30,Nari O Shishu Act,2589,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,46,Nari-481/19,"Md,Jahangir hosain Howlader",2019-01-16,2019,2025-09-16,2026-05-02,2025-07-30 00:00:00,Nari O Shishu Act,2542,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,56,Nari-493/19,S M  Saiful Alam Sayem Akhon,2018-08-27,2018,2025-07-10,2026-02-23,2025-07-30 00:00:00,Nari O Shishu Act,2684,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,57,Nari-503/19,Mst Parul Begum,2019-06-28,2019,2025-09-19,2026-05-02,7(9)(1)/30,Nari O Shishu Act,2379,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,61,Nari-512/19,Md.Shalom Howlader,2019-03-24,2019,2025-11-09,2026-01-02,9(1)/30,Nari O Shishu Act,2475,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,69,Nari-536/19,Pervas Molla,2019-04-27,2019,2025-08-14,2026-10-02,7,Nari O Shishu Act,2441,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,72,Nari-522/19,Mst Sarmin Akter,2019-02-24,2019,2025-01-09,2026-02-18,10,Nari O Shishu Act,2503,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,75,Nari-579/19,Mst Sarmin Akter,2019-02-28,2019,2025-09-24,2026-02-15,9(1)/30,Nari O Shishu Act,2499,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,77,Nari-550/19,Md Iqbal Hawlader,2019-06-13,2019,2025-09-18,2026-09-02,17(1)/30,Nari O Shishu Act,2394,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,81,Nari-583/19,Md Shahin Sheikh,2019-05-14,2019,2025-09-30,2026-02-18,9(3)/30,Nari O Shishu Act,2424,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,88,Nari-379/19,Rabeya,2017-04-27,2017,2025-08-10,2026-02-24,11(C),Nari O Shishu Act,3171,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,89,Nari-325/19,Nur Mohammad Babul,2018-09-14,2018,2025-07-08,2026-03-02,7,Nari O Shishu Act,2666,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,94,Nari-67/19,Laboni Akter,2016-02-02,2016,2025-04-10,2026-02-24,9(1),Nari O Shishu Act,3621,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,95,Nari-50/19,Sunel Chendro Shil,2010-12-07,2010,2025-09-14,2026-02-02,2026-07-30 00:00:00,Nari O Shishu Act,5504,Over 10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,96,Nari-56/19,Kalam bapare,2017-07-06,2017,2025-09-23,2026-12-02,7/9(1)/30,Nari O Shishu Act,3101,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,97,Nari-60/19,Mst Mitu Akter,2017-09-15,2017,2025-09-14,2026-02-02,9(4)(b),Nari O Shishu Act,3030,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,98,Nari-61/19,Md.Riful khorem shopon,2014-01-03,2014,2025-11-23,2026-12-02,7,Nari O Shishu Act,4381,Over 10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,99,Nari-63/19,Mst Khadeja  Begum,2017-06-20,2017,2025-09-10,2026-02-25,9(4)(b),Nari O Shishu Act,3117,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,113,Nari-191-19,Mst Akhe Begum,2018-01-10,2018,2025-08-10,2026-02-24,11(C),Nari O Shishu Act,2913,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,114,Nari-221/19,Mst Fojelatun Necha,2017-03-11,2017,2025-09-22,2026-11-02,10/323/506,Nari O Shishu Act,3218,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,124,Nari-134/2019,Kajol,2018-10-17,2018,2025-09-10,2025-02-25,11(c),Nari O Shishu Act,2633,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,127,Nari-126/2019,Mst Masuda Begum,2018-07-17,2018,2025-05-10,2026-02-19,11(b)(c),Nari O Shishu Act,2725,5-10 years,0,0,0,0,0,0,0
+NOS,Nari O Shishu Nirjatan Daman Tribunal,130,Nari -95/2019,Mst Mahenur Begum,2018-04-15,2018,2025-12-10,,9(d)(b),Nari O Shishu Act,2818,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,1,Gr-907/19  Sadar,Md  Mahmudl Mumin,2019-03-10,2019,2025-08-12,2026-03-29,326/307 PC,Homicide / Attempt,2489,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,2,Cr- 220/18  Kaunia,SI Sujid Gomosta,2018-02-23,2018,2025-12-14,2026-01-29,19(1) 9(A),Special Laws,2869,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,3,Gr-609/19  Sadar,Md Sultan Gazi,2019-07-25,2019,2025-08-12,2026-03-31,379/328 Pc,Theft / Robbery,2352,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,4,Gr-584/18  Sadar,Debashis Halder,2018-08-16,2018,2025-10-12,2026-04-03,406/420 PC,Forgery / Fraud,2695,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,5,Gr-190/16 Kaunia,Md Shohag Gazi,2016-10-23,2016,2025-12-14,2026-02-04,143/323/324/307/506 Pc,Homicide / Attempt,3357,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,6,Gr-216/19 Kaunia,Md Kobir,2019-08-11,2019,2025-10-12,2026-06-04,143/447/323/307/324/506(2),Homicide / Attempt,2335,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,7,Gr-714/19 Sadar,Mst Fatema Begum,2019-08-19,2019,2025-05-11,2026-05-03,406/420/109 Pc,Forgery / Fraud,2327,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,8,Gr-284/17 Airport,Nipen Kumar Das,2017-12-17,2017,2025-03-12,2026-03-15,19(1) 9(a),Special Laws,2937,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,9,Gr-340/19  Kaunia,Md Tareque Chokider,2019-12-03,2019,2025-03-12,2026-03-15,411/379 PC,Theft / Robbery,2221,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,10,Gr-652/18 Sadar,Abdul Rashid Khan,2019-09-09,2019,2025-03-12,2026-03-15,406/420/467/471/109/486 PC,Forgery / Fraud,2306,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,11,Gr-216/16 Sadar,Md Mohammad Ali,2018-05-12,2018,2025-11-12,2026-03-31,341/326/141/307/379/109/34 Pc,Homicide / Attempt,2791,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,12,Gr-434/18 Sadar,SI Md Delowar Hossain,2018-06-14,2018,2025-07-12,2026-03-24,19(1) of 7(a),Special Laws,2758,5-10 years,0,0,1,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,13,Gr-93/19 Airport,Md Sonamuddin Gazi,2019-06-04,2019,2025-11-30,2026-09-03,380/411 PC,Theft / Robbery,2403,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,14,Gr-146/19 Bakerganj,SI Md Firoj Ali Munsi,2019-03-06,2019,2026-01-15,2026-10-03,36(1)of 8(a),Special Laws,2493,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,15,Gr-311/19 Airport,Md Mainul Hossain,2019-11-14,2019,2025-03-12,2026-03-15,36(1) of 19(a)/40,Special Laws,2240,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,16,Gr-541/15  Sadar,State,2015-08-23,2015,2025-11-27,2026-09-03,467/468/471/109/34 pc,Forgery / Fraud,3784,Over 10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,17,Gr-827/19 Sadar,Mozibor Rahman,2019-09-15,2019,2025-12-23,2026-04-16,323/325/307/506(2),Homicide / Attempt,2300,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,18,GR-266/19 Airport,Md Hannan Hawlader,2019-09-19,2019,2026-01-01,2026-04-26,379/411/34 PC,Theft / Robbery,2296,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,19,Gr-712/19 Sadar,Mst Rani Begum,2019-08-19,2019,2026-01-01,2026-04-25,406/420/109 pc,Forgery / Fraud,2327,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,20,Gr-713/19 Sadar,Mst Sherine Akter,2019-08-19,2019,2026-01-01,2026-04-22,406/420/109 pc,Forgery / Fraud,2327,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,21,Gr-874/19 Sadar,Si Md Ferus Ali Munse,2019-09-25,2019,2025-08-12,2026-03-29,36(1) of 10(a),Special Laws,2290,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,22,Gr-417/19 Sadar,Md.Ferus Ali Kholefa,2019-05-25,2019,2025-10-12,2026-03-31,307/109pc,Homicide / Attempt,2413,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,23,Gr-467/19 Sadar,Nurjahan Begum,2019-06-15,2019,2025-01-12,2026-11-03,"307,325,326,324,143,447,448,506(2)/323,379 pc",Homicide / Attempt,2392,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,24,Gr-54/16 Sadar,Abul Kalam,2016-04-02,2016,2026-12-01,2026-04-03,143/341/326/307/379 pc,Homicide / Attempt,3561,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,25,Gr 463/2019 Sadar,Md Ferus Kholefa,2019-06-13,2019,2026-11-01,2026-02-03,221/222/223/406pc,Forgery / Fraud,2394,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,26,Gr-1124/19 Sadar,Md Meraj Uddin,2019-10-11,2019,2026-11-01,2026-02-03,447/427/323/324/307/506/109pc,Homicide / Attempt,2274,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,27,Gr-84/19 Beman Bondor,Si Md Dalower Hossain,2019-03-24,2019,2026-08-01,2026-01-03,379/380 pc,Theft / Robbery,2475,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,28,Gr-27/19-Sador,Md.Abdur sater Merda,2015-09-06,2015,2025-12-10,2026-04-27,"307,323,326,506,/(2)341pc",Homicide / Attempt,3770,Over 10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,29,Cr-517/11 Sador,joynel Abedin Molek,2011-09-18,2011,2025-10-12,2026-01-20,143/447/323/307/324/506(2),Homicide / Attempt,5219,Over 10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,30,Gr-117/18 Bondor,Md Shah Newas Khan,2018-01-11,2018,2025-11-11,2026-04-19,"183,341,323,324,325,326,307,379,/506 দ:বি:",Homicide / Attempt,2912,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,31,Gr-527/19 Sador,Taposh Guah,2019-06-30,2019,2025-11-27,2026-01-14,19(1) 9(a),Special Laws,2377,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,32,Gr-80/19 Bondor,Akm Dalower Hosain Munse,2019-06-15,2019,2026-12-01,,447/323/307/324/325,Homicide / Attempt,2392,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,33,Gr-221/19  Bondor,Si Md Sidur Rahman,2019-08-18,2019,2025-10-12,,379 pc,Theft / Robbery,2328,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,34,Gr-269/16 Sadar,Md.Mosarof Hosain,2017-04-27,2017,2026-12-01,,341/326/141/307/379/109/34 Pc,Homicide / Attempt,3171,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,35,Cr-589/16 Sadar,Haje Md Bojlur Rahman,2014-08-26,2014,2025-01-12,2026-01-15,406/109/199/200,Forgery / Fraud,4146,Over 10 years,0,0,1,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,36,Gr 49/2016 Khowneya,Anower  Hossain,2016-03-30,2016,2026-01-15,2026-01-15,143/447/323/326/307/379/506 pc,Homicide / Attempt,3564,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,37,Gr-357/19 Khwneya,Md.Nojrul Islam,2019-11-21,2019,2026-01-15,2026-10-03,36(1) of 19(a),Special Laws,2233,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,38,Gr-85/19 Beman Bondor,Md.Shoag Howlader,2019-03-26,2019,2026-01-19,2026-10-03,"143,341,323,326,307,379,506(2) 354 pc",Homicide / Attempt,2473,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,39,Gr-126/2017-Sador,Shomeron Mondol,2017-02-25,2017,2026-01-19,2026-02-24,19(1) of  (9)(a),Special Laws,3232,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,40,Gr-771/2017 Sador,Si Md Moniruzaman,2017-11-21,2017,2026-01-18,2026-09-02,19(1) of  7(a),Special Laws,2963,5-10 years,1,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,41,Gr-1129/2019 Sadar,Md Rosed Ahamed,2019-12-12,2019,2026-01-18,2026-11-03,36(1) of 19(a),Special Laws,2212,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,42,Gr-223/2000 Sadar,Ozid Mojumdar,2000-07-05,2000,2025-10-20,2026-01-28,406/420,Forgery / Fraud,9311,Over 10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,43,Gr-134/15 Sadar,Md Noyon Ibrahim,2015-05-04,2015,2025-09-12,2026-02-17,279/304(a)/427,Homicide / Attempt,3895,Over 10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,44,Gr-777/17 Sadar,Subrat Bishas,2017-11-28,2017,2025-10-21,2026-01-29,379/401,Theft / Robbery,2956,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,45,Gr-380/18  Sadar,Si Md Minul Islam,2018-05-30,2018,2026-01-21,2026-03-30,19(1) of  9(a)7(a),Special Laws,2773,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,46,Gr 307/18 Sador,Md . Monerul Islam,2018-11-05,2018,2025-12-12,2026-01-02,379 Pc,Theft / Robbery,2614,5-10 years,0,0,0,0,0,1,0
+CMM,Chief Metropolitan Magistrate Court,47,Gr-825/18 Sador,Mst Sume Akter,2018-07-11,2018,2026-01-14,2026-02-02,323/326/307 pc,Homicide / Attempt,2731,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,48,Gr- 974/19 Sador,Md Mhosin Hosain,2019-10-21,2019,2025-08-12,2026-03-29,379/411/pc,Theft / Robbery,2264,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,49,Gr -575/17 Sador,Usife Ali Foraje,2017-08-30,2017,2026-03-12,2026-12-03,19(1) 9(a),Special Laws,3046,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,50,Gr-165/19  Bondor,Abdul Rhohim Merda,2019-06-22,2019,2026-01-26,2026-08-02,143/323/307/506 pc,Homicide / Attempt,2385,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,51,Gr-157/19 Beman Bondor,Md . Kamal Merda,2019-06-17,2019,2026-01-26,2026-08-02,143.448.427.307.323.324.325.354.506(2) pc,Homicide / Attempt,2390,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,52,Gr-608/17 Sador,Md Akteruzaman,2017-09-17,2017,2025-12-15,2026-03-29,19(1) of  7(a),Special Laws,3028,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,53,Gr-472/17 Sador,Md. Shamim Hosain,2017-07-24,2017,2025-12-18,2026-06-04,19(1) of  7(a),Special Laws,3083,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,54,Gr-90/17 Beman Bondor,Usife Foraje,2017-04-23,2017,2025-11-27,2026-07-03,19(1) 9(a),Special Laws,3175,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,55,GR-229/17Beman Bondor,Md Dalower Hosain,2017-10-08,2017,2025-03-12,2026-12-03,19(1) of  7(a),Special Laws,3007,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,56,,Md Foreduddin Merda,2017-07-05,2017,2026-06-01,2026-10-02,457/380 pc,Theft / Robbery,3102,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,57,Cr- 829/19  Sadar,Ab . Ablu basher Khan,2019-05-03,2019,2026-04-01,2026-04-26,406/420/506,Forgery / Fraud,2435,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,58,Cr-94/19 Sador,Sarabone Akter Nur,2019-01-31,2019,2026-04-01,2026-05-04,406/420/109,Forgery / Fraud,2527,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,59,Gr-157/16 Beman Bondor,Tanjel Ahamed,2016-08-25,2016,2026-01-01,2026-02-19,406/420/109,Forgery / Fraud,3416,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,60,Cr-546/18 Sador,Mst Daleya Begum,2018-08-05,2018,2025-12-30,2026-02-17,406/420/109,Forgery / Fraud,2706,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,61,Gr -776/19  Sador,Md .Enamul Haq,2019-03-09,2019,2025-12-14,2026-01-29,143/341/225/186/332/506(2) Pc,Rioting / Unlawful Assembly,2490,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,62,Gr-278/19  Bondor,Sonjoy Boral,2019-12-04,2019,2025-10-12,2026-04-03,406/420/34 Pc,Forgery / Fraud,2220,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,63,Gr- 345/19 Sadar,Si Md Mostafejur Rahman,2019-01-05,2019,2026-01-01,2026-11-03,19(1) of  7(a),Special Laws,2553,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,64,Gr-206/18 Sador,Si Md Rofequl Islam,2008-04-04,2008,2026-08-01,2026-03-25,19(1) 9(a),Special Laws,6481,Over 10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,65,Gr-909/09 Sador,Md Shajalal  Molla,2019-04-10,2019,2026-04-01,2026-12-03,36(1) of 10(a),Special Laws,2458,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,66,Gr-255/19 Kawnia,Md. Salem Howlader,2019-08-23,2019,2026-11-01,2026-03-29,380/457/411 pc,Theft / Robbery,2323,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,67,Gr -457/19  Sador,Md.Chan Miha Howlader,2019-11-06,2019,2025-12-22,2026-02-03,406/417/419/420/109 pc,Forgery / Fraud,2248,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,68,Gr-322/19  Bimanbondar,Ab. Khalak Howlader,2019-11-23,2019,2026-01-16,,143/447/323/379/506,Assault / Hurt,2231,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,69,Gr-33/18 Sador,Mst Maksuda Akter Shilpi,2018-06-14,2018,2026-02-16,2026-04-19,341/323/325/307,Homicide / Attempt,2758,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,70,Gr-113/17 Sador,Md. Masud Rana,2017-02-21,2017,2025-12-28,2026-05-03,457/461/380/411 Pc,Theft / Robbery,3236,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,71,Gr-949/19 Sador,Md. Sultan Ahamed,2019-10-17,2019,2025-12-14,2026-02-23,36(1) of 10(a),Special Laws,2268,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,72,Gr-174/18 Airport,Si Md Hasain Bosir,2018-06-27,2018,2025-12-15,2026-04-26,19(1) 9(a),Special Laws,2745,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,73,Gr-308/18 Kawnia,Mst .Mahamuda Katun Babe,2018-11-30,2018,2025-12-17,2026-02-25,323/325 Pc,Assault / Hurt,2589,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,74,GR- 239/18 Kawnia,Yousuf ali Forazi,2018-08-18,2018,2026-02-17,2026-04-20,19(1) of  7(a),Special Laws,2693,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,75,Gr-878/19 Sador,Shomeron Mondol,2018-07-24,2018,2026-05-01,2026-03-25,36(1) of 10(a),Special Laws,2718,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,76,Gr-803/18 Sador,Md Siful Haq Sarder,2019-09-26,2019,2026-08-01,2026-03-15,19(1) 9(a),Special Laws,2289,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,77,Gr-946/19 Sador,Md Helal Uddin,2018-01-11,2018,2026-05-01,2026-10-03,36(1) of 10(a),Special Laws,2912,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,78,Gr-464/19 Sador,Nemi sikder,2019-10-16,2019,2026-05-01,2026-04-20,406/420/109 pc,Forgery / Fraud,2269,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,79,Gr -203/17  Sador,Md Imran Khan,2019-06-13,2019,2026-08-01,2026-08-04,107/406/420/109 Pc,Forgery / Fraud,2394,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,80,Gr-266/18  Sadar,Olak Kumer Mojemder,2017-02-04,2017,2026-08-01,2026-10-03,19(1) 9(a),Special Laws,3253,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,81,Gr-388/19 Khownewa,Md. Joshem Uddin,2019-10-23,2019,2026-02-22,2026-04-23,36(1) of 10(a),Special Laws,2262,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,82,Gr-511/19 Sador,Aukmal Hossain Talukder,2019-09-02,2019,2026-02-23,,467/468/471/420/109 Pc,Forgery / Fraud,2313,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,83,Gr-80/18 Khownewa,Salem Raja,2018-03-14,2018,2025-11-11,2026-04-24,19(1) of  7(a),Special Laws,2850,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,84,Gr-345/18 Sador,Asi Md. Eleus Hossain,2018-05-21,2018,2026-01-28,2026-04-19,19(1) of  7(a),Special Laws,2782,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,85,GR- 142/19 Sador,Md Akterujman Howlader,2019-02-23,2019,2026-08-01,2026-04-15,379/411 pc,Theft / Robbery,2504,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,86,Gr-73/18 Sador,Md. Abul Basher,2018-05-02,2018,2026-05-01,2026-04-03,১৯(১) এর ৯(ক),Other / Unclassified,2801,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,87,Gr-635/17 Sador,Si Md Ased Ujaman,2017-09-26,2017,2026-08-01,2026-11-03,১৯(১) এর ৯(ক)/25,Other / Unclassified,3019,5-10 years,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CMM,Chief Metropolitan Magistrate Court,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,1,Gr-105/19 Babuganj,Md Kalu Sarder,2019-12-20,2019,2025-03-11,2026-09-02,143/448/307/323/325/354/379/427/506,Homicide / Attempt,2204,5-10 years,0,0,0,0,0,1,0
+ACJM,Additional Chief Judicial Magistrate Court,2,Gr-105/19 Babuganj,Md Mahbub Khan,2019-04-28,2019,2025-12-14,2026-02-19,143/447/323/307/354/379/506,Homicide / Attempt,2440,5-10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,3,Gr-156 (A)/19 Bakerganj,Md Monzurul Islam,2019-06-20,2019,2025-11-24,2026-04-23,143/341/323/326/307/506,Homicide / Attempt,2387,5-10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,4,CR-313/18 Babuganj,Sumonta Patikor Dotta,2018-05-30,2018,2025-01-23,2026-04-26,143/448/387/323/325/354/379/427/506,Assault / Hurt,2773,5-10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,5,Gr-89/19 Banaripara,Md Adam Ali Sarder,2019-07-22,2019,2025-04-12,2026-03-05,143/323/324/326/307/379/506,Homicide / Attempt,2355,5-10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,6,Gr-91/19 Banaripara,Md Shahid Sarder,2019-07-26,2019,2025-12-10,2026-03-05,143/447/323/324/325/307/427/506,Homicide / Attempt,2351,5-10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,7,Gr-10/07  Babuganj,Mst Rokeya Begum,2007-09-01,2007,2025-09-22,2026-10-03,143/147/148/323/323/307/385/387/506/379/109,Homicide / Attempt,6697,Over 10 years,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,8,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,9,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,10,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,11,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,12,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,13,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,14,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,15,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,16,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,17,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,18,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,19,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,20,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,21,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,22,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,23,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,24,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,25,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,26,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,27,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,28,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,29,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,30,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,31,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,32,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,33,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,34,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,35,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,36,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,37,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,38,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,39,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,40,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,41,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,42,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,43,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,44,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,45,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,46,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,47,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,48,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,49,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,50,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,51,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,52,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,53,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,54,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,55,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,56,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,57,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,58,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,59,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,60,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,61,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,62,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,63,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,64,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,65,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,66,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,67,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,68,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,69,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,70,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,71,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,72,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,73,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,74,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,75,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,76,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,77,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,78,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,79,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,80,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,81,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,82,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,83,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,84,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,85,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,86,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,87,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACJM,Additional Chief Judicial Magistrate Court,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,1,Gr-1173/19 Sadar,Sujid Kumar SI,2019-12-31,2019,2025-12-23,2026-10-02,36(1) table 19(a),Special Laws,2193,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,2,Gr-320/19 Kawnia,Md Habibur Rahman SI,2019-10-17,2019,2025-12-22,2026-09-02,36(1) table 10(a),Special Laws,2268,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,3,Gr-147/19 Bondor,Md Lutfor Rahman,2019-06-11,2019,2026-06-01,2026-02-24,36(1) table 10(a),Special Laws,2396,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,4,Gr-1005/19 Sadar,Md Helal Uddin SI,2019-10-30,2019,2025-12-24,2026-11-02,36(1) table 10(a),Special Laws,2255,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,5,Gr-559/18  Sadar,Sunil Kumar De,2018-10-08,2018,2025-01-12,2026-03-02,19(1) of 9(a),Special Laws,2642,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,6,Gr-275/19 Bimanbondar,Sayed Khairul Alam  SI,2019-09-24,2019,2025-12-30,2026-02-17,36(1) Table 10(a),Special Laws,2291,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,7,Gr-342/19 Bondar,Md Bozlul Haque SI,2019-05-12,2019,2025-12-31,2026-02-19,36(1) Table 10(a)/40,Special Laws,2426,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,8,Gr-279/19 Kawnia,Md Jasim Uddin SI,2019-10-09,2019,2026-01-20,2026-05-03,36(1) Table 10(a),Special Laws,2276,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,9,Gr-283/19 Airport,Sayed Khairul  Alam SI,2019-02-10,2019,2026-01-21,2026-08-03,36(1) Table 10(a)/40,Special Laws,2517,5-10 years,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,10,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,11,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,12,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,13,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,14,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,15,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,16,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,17,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,18,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,19,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,20,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,21,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,22,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,23,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,24,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,25,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,26,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,27,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,28,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,29,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,30,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,31,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,32,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,33,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,34,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,35,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,36,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,37,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,38,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,39,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,40,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,41,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,42,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,43,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,44,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,45,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,46,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,47,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,48,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,49,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,50,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,51,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,52,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,53,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,54,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,55,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,56,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,57,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,58,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,59,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,60,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,61,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,62,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,63,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,64,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,65,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,66,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,67,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,68,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,69,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,70,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,71,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,72,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,73,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,74,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,75,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,76,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,77,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,78,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,79,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,80,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,81,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,82,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,83,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,84,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,85,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,86,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,87,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+ACMM,Additional Chief Metropolitan Magistrate Court,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,1,Gr-310/19 Gouranadi,Md Siraj Sikder,2019-03-11,2019,2025-12-14,2026-05-03,341/354/326/307,Homicide / Attempt,2488,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,2,Gr-225/19 Uzirpur,Md Moynul Mia,2019-09-22,2019,2025-11-29,2026-04-16,306 PC,Homicide / Attempt,2293,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,3,Gr-23/19 Bakerganj,Polash Mia,2019-01-22,2019,2025-12-14,2026-07-04,466/467/468/471,Forgery / Fraud,2536,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,4,Gr-215/19 Bakerganj,Md Shohidul Islam,2019-08-21,2019,2025-04-11,2026-04-15,143/447/448/323/326/307/379/506,Homicide / Attempt,2325,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,5,Gr-214/19 Bakerganj,Md Faruk Hawlader,2025-08-20,2025,2026-02-24,2026-05-18,143/447/323/325/354/506/109,Assault / Hurt,134,Under 3 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,6,Gr-269/19 Uzirpur,Selim Jahan,2019-07-10,2019,2025-02-11,2026-11-26,467/468/471/81/82,Forgery / Fraud,2367,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,7,Cr-69/12 Gouranadi,Sultan Molla,2011-10-30,2011,2025-02-11,2026-09-04,467/468/419/420/109,Forgery / Fraud,5177,Over 10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,8,Cr-275/18 Uzirpur,Nazrul Islam,2018-05-11,2018,2025-02-11,2026-09-04,467/468/506/471/420/506,Forgery / Fraud,2792,5-10 years,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,9,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,10,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,11,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,12,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,13,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,14,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,15,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,16,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,17,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,18,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,19,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,20,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,21,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,22,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,23,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,24,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,25,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,26,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,27,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,28,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,29,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,30,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,31,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,32,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,33,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,34,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,35,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,36,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,37,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,38,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,39,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,40,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,41,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,42,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,43,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,44,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,45,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,46,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,47,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,48,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,49,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,50,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,51,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,52,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,53,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,54,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,55,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,56,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,57,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,58,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,59,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,60,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,61,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,62,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,63,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,64,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,65,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,66,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,67,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,68,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,69,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,70,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,71,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,72,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,73,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,74,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,75,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,76,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,77,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,78,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,79,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,80,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,81,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,82,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,83,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,84,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,85,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,86,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,87,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+CJM,Chief Judicial Magistrate Court,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,1,Stc-228/19,Md Amzed Hossain,2018-10-21,2018,2026-02-26,2026-01-04,19(1) Tabel 9(k),Special Laws,2629,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,2,Stc- 224/19,Md Joherul Islam Si,2018-09-27,2018,2026-02-17,2026-02-04,22©,Other / Unclassified,2653,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,3,Stc-976/19,Altab Hosain,2019-03-27,2019,2026-11-02,2026-03-23,138,Special Laws,2472,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,4,Stc- 347/19,Md Harun or Roshed Si,2018-11-16,2018,2026-10-02,2026-11-03,19(1) Tabel 9(k)25,Special Laws,2603,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,5,Stc- 278/19,Md Sogir Hossain Si,2017-08-04,2017,2026-02-26,2026-09-04,19(1) Tabel 3(k)25,Special Laws,3072,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,6,Stc-222/19,Abdul  Malak Talukder,2017-09-12,2017,2026-02-26,2026-09-04,২২(গ)ও ৩২০ এবং৩৩(১),Other / Unclassified,3033,5-10 years,0,0,0,0,0,0,0
+DJ,District Judge Court,7,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,8,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,9,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,10,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,11,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,12,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,13,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,14,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,15,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,16,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,17,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,18,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,19,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,20,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,21,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,22,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,23,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,24,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,25,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,26,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,27,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,28,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,29,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,30,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,31,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,32,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,33,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,34,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,35,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,36,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,37,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,38,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,39,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,40,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,41,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,42,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,43,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,44,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,45,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,46,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,47,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,48,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,49,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,50,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,51,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,52,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,53,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,54,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,55,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,56,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,57,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,58,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,59,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,60,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,61,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,62,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,63,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,64,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,65,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,66,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,67,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,68,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,69,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,70,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,71,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,72,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,73,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,74,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,75,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,76,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,77,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,78,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,79,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,80,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,81,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,82,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,83,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,84,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,85,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,86,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,87,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+DJ,District Judge Court,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,1,Gr-72/19 Uzirpur,Rohema Begum,2019-07-17,2019,2025-12-22,2026-03-02,447.323.326.307.506 pc,Homicide / Attempt,2360,5-10 years,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,2,Gr-139/19 Uzirpur,Md.Kholel Bapare,2019-06-19,2019,2025-11-12,2026-01-29,143.341.325.307.379..506pc,Homicide / Attempt,2388,5-10 years,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,3,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,4,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,5,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,6,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,7,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,8,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,9,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,10,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,11,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,12,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,13,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,14,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,15,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,16,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,17,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,18,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,19,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,20,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,21,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,22,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,23,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,24,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,25,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,26,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,27,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,28,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,29,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,30,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,31,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,32,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,33,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,34,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,35,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,36,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,37,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,38,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,39,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,40,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,41,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,42,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,43,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,44,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,45,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,46,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,47,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,48,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,49,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,50,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,51,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,52,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,53,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,54,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,55,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,56,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,57,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,58,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,59,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,60,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,61,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,62,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,63,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,64,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,65,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,66,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,67,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,68,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,69,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,70,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,71,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,72,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,73,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,74,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,75,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,76,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,77,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,78,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,79,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,80,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,81,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,82,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,83,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,84,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,85,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,86,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,87,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,88,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,89,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,90,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,91,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,92,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,93,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,94,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,95,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,96,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,97,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,98,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,99,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
+JM2,Judicial Magistrate Court No. 2,100,,,,,,,,Unclassified,,,0,0,0,0,0,0,0
