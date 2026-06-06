@@ -1,0 +1,29 @@
+court_code,age_band,case_count
+NOS,Under 3 years,0
+NOS,3-5 years,0
+NOS,5-10 years,31
+NOS,Over 10 years,3
+CMM,Under 3 years,0
+CMM,3-5 years,0
+CMM,5-10 years,80
+CMM,Over 10 years,7
+ACJM,Under 3 years,0
+ACJM,3-5 years,0
+ACJM,5-10 years,6
+ACJM,Over 10 years,1
+ACMM,Under 3 years,0
+ACMM,3-5 years,0
+ACMM,5-10 years,9
+ACMM,Over 10 years,0
+CJM,Under 3 years,1
+CJM,3-5 years,0
+CJM,5-10 years,6
+CJM,Over 10 years,1
+DJ,Under 3 years,0
+DJ,3-5 years,0
+DJ,5-10 years,6
+DJ,Over 10 years,0
+JM2,Under 3 years,0
+JM2,3-5 years,0
+JM2,5-10 years,2
+JM2,Over 10 years,0

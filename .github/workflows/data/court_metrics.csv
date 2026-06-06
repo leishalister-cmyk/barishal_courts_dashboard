@@ -1,0 +1,101 @@
+court_code,court_name,metric,value,unit,notes
+NOS,Nari O Shishu Nirjatan Daman Tribunal,total_pending,34,cases,As at January 2026
+NOS,Nari O Shishu Nirjatan Daman Tribunal,avg_case_age_years,7.9,years,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,median_case_age_years,7.3,years,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,pct_over5yrs,100.0,%,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,pct_over10yrs,8.8,%,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,oldest_case_years,15.1,years,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,cases_marked_disposal,0,cases,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,cases_suitable_adr,0,cases,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,cases_ready_hearing,0,cases,
+NOS,Nari O Shishu Nirjatan Daman Tribunal,cases_doc_missing,0,cases,
+CMM,Chief Metropolitan Magistrate Court,total_pending,100,cases,As at January 2026
+CMM,Chief Metropolitan Magistrate Court,avg_case_age_years,7.8,years,
+CMM,Chief Metropolitan Magistrate Court,median_case_age_years,7.0,years,
+CMM,Chief Metropolitan Magistrate Court,pct_over5yrs,100.0,%,
+CMM,Chief Metropolitan Magistrate Court,pct_over10yrs,8.0,%,
+CMM,Chief Metropolitan Magistrate Court,oldest_case_years,25.5,years,
+CMM,Chief Metropolitan Magistrate Court,cases_marked_disposal,9,cases,
+CMM,Chief Metropolitan Magistrate Court,cases_suitable_adr,0,cases,
+CMM,Chief Metropolitan Magistrate Court,cases_ready_hearing,2,cases,
+CMM,Chief Metropolitan Magistrate Court,cases_doc_missing,0,cases,
+ACJM,Additional Chief Judicial Magistrate Court,total_pending,100,cases,As at January 2026
+ACJM,Additional Chief Judicial Magistrate Court,avg_case_age_years,8.3,years,
+ACJM,Additional Chief Judicial Magistrate Court,median_case_age_years,6.5,years,
+ACJM,Additional Chief Judicial Magistrate Court,pct_over5yrs,100.0,%,
+ACJM,Additional Chief Judicial Magistrate Court,pct_over10yrs,14.3,%,
+ACJM,Additional Chief Judicial Magistrate Court,oldest_case_years,18.3,years,
+ACJM,Additional Chief Judicial Magistrate Court,cases_marked_disposal,1,cases,
+ACJM,Additional Chief Judicial Magistrate Court,cases_suitable_adr,0,cases,
+ACJM,Additional Chief Judicial Magistrate Court,cases_ready_hearing,0,cases,
+ACJM,Additional Chief Judicial Magistrate Court,cases_doc_missing,0,cases,
+ACMM,Additional Chief Metropolitan Magistrate Court,total_pending,100,cases,As at January 2026
+ACMM,Additional Chief Metropolitan Magistrate Court,avg_case_age_years,6.5,years,
+ACMM,Additional Chief Metropolitan Magistrate Court,median_case_age_years,6.3,years,
+ACMM,Additional Chief Metropolitan Magistrate Court,pct_over5yrs,100.0,%,
+ACMM,Additional Chief Metropolitan Magistrate Court,pct_over10yrs,0.0,%,
+ACMM,Additional Chief Metropolitan Magistrate Court,oldest_case_years,7.2,years,
+ACMM,Additional Chief Metropolitan Magistrate Court,cases_marked_disposal,0,cases,
+ACMM,Additional Chief Metropolitan Magistrate Court,cases_suitable_adr,0,cases,
+ACMM,Additional Chief Metropolitan Magistrate Court,cases_ready_hearing,0,cases,
+ACMM,Additional Chief Metropolitan Magistrate Court,cases_doc_missing,0,cases,
+CJM,Chief Judicial Magistrate Court,total_pending,100,cases,As at January 2026
+CJM,Chief Judicial Magistrate Court,avg_case_age_years,6.9,years,
+CJM,Chief Judicial Magistrate Court,median_case_age_years,6.8,years,
+CJM,Chief Judicial Magistrate Court,pct_over5yrs,87.5,%,
+CJM,Chief Judicial Magistrate Court,pct_over10yrs,12.5,%,
+CJM,Chief Judicial Magistrate Court,oldest_case_years,14.2,years,
+CJM,Chief Judicial Magistrate Court,cases_marked_disposal,0,cases,
+CJM,Chief Judicial Magistrate Court,cases_suitable_adr,0,cases,
+CJM,Chief Judicial Magistrate Court,cases_ready_hearing,0,cases,
+CJM,Chief Judicial Magistrate Court,cases_doc_missing,0,cases,
+DJ,District Judge Court,total_pending,100,cases,As at January 2026
+DJ,District Judge Court,avg_case_age_years,7.5,years,
+DJ,District Judge Court,median_case_age_years,7.3,years,
+DJ,District Judge Court,pct_over5yrs,100.0,%,
+DJ,District Judge Court,pct_over10yrs,0.0,%,
+DJ,District Judge Court,oldest_case_years,8.4,years,
+DJ,District Judge Court,cases_marked_disposal,0,cases,
+DJ,District Judge Court,cases_suitable_adr,0,cases,
+DJ,District Judge Court,cases_ready_hearing,0,cases,
+DJ,District Judge Court,cases_doc_missing,0,cases,
+JM2,Judicial Magistrate Court No. 2,total_pending,100,cases,As at January 2026
+JM2,Judicial Magistrate Court No. 2,avg_case_age_years,6.5,years,
+JM2,Judicial Magistrate Court No. 2,median_case_age_years,6.5,years,
+JM2,Judicial Magistrate Court No. 2,pct_over5yrs,100.0,%,
+JM2,Judicial Magistrate Court No. 2,pct_over10yrs,0.0,%,
+JM2,Judicial Magistrate Court No. 2,oldest_case_years,6.5,years,
+JM2,Judicial Magistrate Court No. 2,cases_marked_disposal,0,cases,
+JM2,Judicial Magistrate Court No. 2,cases_suitable_adr,0,cases,
+JM2,Judicial Magistrate Court No. 2,cases_ready_hearing,0,cases,
+JM2,Judicial Magistrate Court No. 2,cases_doc_missing,0,cases,
+DSJ,District & Session Judge (All),total_pending_district,1881,cases,Sep 2025 district report
+DSJ,District & Session Judge (All),pending_5plus_district,75,cases,Sep 2025 district report
+DSJ,District & Session Judge (All),rate_5plus_pct_district,4.0,%,Sep 2025 district report
+CJM,CJM (Total),total_pending_district,11478,cases,Sep 2025 district report
+CJM,CJM (Total),pending_5plus_district,79,cases,Sep 2025 district report
+CJM,CJM (Total),rate_5plus_pct_district,0.7,%,Sep 2025 district report
+CMM,CMM (Total),total_pending_district,10356,cases,Sep 2025 district report
+CMM,CMM (Total),pending_5plus_district,358,cases,Sep 2025 district report
+CMM,CMM (Total),rate_5plus_pct_district,3.5,%,Sep 2025 district report
+NOS,Nari o Shishu Tribunal,total_pending_district,3564,cases,Sep 2025 district report
+NOS,Nari o Shishu Tribunal,pending_5plus_district,77,cases,Sep 2025 district report
+NOS,Nari o Shishu Tribunal,rate_5plus_pct_district,2.2,%,Sep 2025 district report
+HTT,Human Trafficking Tribunal,total_pending_district,58,cases,Sep 2025 district report
+HTT,Human Trafficking Tribunal,pending_5plus_district,1,cases,Sep 2025 district report
+HTT,Human Trafficking Tribunal,rate_5plus_pct_district,1.7,%,Sep 2025 district report
+JNSSJ,Jana Nirapotta & Special Session Judge,total_pending_district,112,cases,Sep 2025 district report
+JNSSJ,Jana Nirapotta & Special Session Judge,pending_5plus_district,19,cases,Sep 2025 district report
+JNSSJ,Jana Nirapotta & Special Session Judge,rate_5plus_pct_district,17.0,%,Sep 2025 district report
+MSC,Metropolitan Sessions Court (All),total_pending_district,2536,cases,Sep 2025 district report
+MSC,Metropolitan Sessions Court (All),pending_5plus_district,80,cases,Sep 2025 district report
+MSC,Metropolitan Sessions Court (All),rate_5plus_pct_district,3.2,%,Sep 2025 district report
+CT,Cyber Tribunal,total_pending_district,422,cases,Sep 2025 district report
+CT,Cyber Tribunal,pending_5plus_district,12,cases,Sep 2025 district report
+CT,Cyber Tribunal,rate_5plus_pct_district,2.8,%,Sep 2025 district report
+AT,Anti-Terrorism,total_pending_district,0,cases,Sep 2025 district report
+AT,Anti-Terrorism,pending_5plus_district,0,cases,Sep 2025 district report
+AT,Anti-Terrorism,rate_5plus_pct_district,0.0,%,Sep 2025 district report
+DSPecJ,Divisional Special Judge,total_pending_district,172,cases,Sep 2025 district report
+DSPecJ,Divisional Special Judge,pending_5plus_district,84,cases,Sep 2025 district report
+DSPecJ,Divisional Special Judge,rate_5plus_pct_district,48.8,%,Sep 2025 district report
